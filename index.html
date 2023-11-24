@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Ilmu - Toko Buku Online</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Media Ilmu - Toko Buku Online</h1>
+    </header>
+    <div class="container">
+        <h2>Welcome to Media Ilmu!</h2>
+        <p>Order any type of books or electronics.</p>
+          <p>Here's the list of things we have here on the site :</p>
+
+        <ul>
+          <li>Novel Books</li>
+          <li>Story Books</li>
+          <li>Religion Books</li>
+          <li>Electronics</li>
+          <li>Stationeries</li>
+          <li>And many more!</li>
+        </ul>
+        <img src="book-shop-icon.webp" width="100">
+        <p>Click the button below to get started:</p>
+        <a href="#" class="button">Order Now</a>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <p>or... If you have not registered yet, please fill the fields below.</p>
+
+        <form action="/submit.php">
+          <p>First Name</p>
+          <input type="text" name="fname">
+          <br>
+          <p>Last Name</p>
+          <input type="text" name="lname">
+          <br>
+          <p>Email</p>
+          <input type="text" name="lname">
+          <br>
+          <p>Type of thing(s) you're intrested to order: </p>
+          <input type="checkbox" name="fname">
+          <p>Novel book</p>
+          <input type="checkbox" name="lname">
+          <p>Religion Book</p>
+          <input type="checkbox" name="lname">
+          <p>Electronics</p>
+          <input type="checkbox" name="lname">
+          <p>Stationeries</p>
+          <br>
+          <input type="submit">
+      
+        </form>
+    </div>
+</body>
+</html>
